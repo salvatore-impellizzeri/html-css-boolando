@@ -4,4 +4,129 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+main img{
+    width: 100%;
+}
+
+/* HEADER */
+
+.header-container{
+    line-height: 50px;
+    background-color: #FF6900;
+    box-shadow: 0 0 3px;
+}
+
+header nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#type{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.header-container > nav a{
+    color: white;
+}
+
+#type a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo{
+    height: 30px;
+    display: flex;
+    align-self: center;
+}
+
+#icon{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* MAIN */
+
+.container-main{
+    width: 80%;
+    min-height: 1500px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.row{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-box{
+    width: 30%;
+    height: 100%;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+}
+
+.price, .original-price{
+    font-size: 15px;
+    display: inline-block;
+}
+
+.original-price{
+    text-decoration: line-through;
+}
+
+/* DEBUG */
+
+/* .debug header nav{
+    background-color: aqua;
+    border: 1px dashed black;
+}
+
+.debug #type{
+    background-color: blue;
+    border: 1px dashed blueviolet;
+} */
+
+.debug .container-main{
+    background-color: springgreen;
+    border: 1px solid black;
+}
+
+.debug .row{
+    background-color: rebeccapurple;
+    border: 1px dashed red;
+}
+
+.card-box{
+    background-color: blanchedalmond;
+    border: 2px dashed blue;
+}
+
+.card{
+    border: 1px dashed black;
 }
