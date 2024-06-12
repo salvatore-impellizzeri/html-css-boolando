@@ -13,13 +13,13 @@ main img{
 
 /* HEADER */
 
-.header-container{
-    line-height: 50px;
+header{
+    line-height: 70px;
     background-color: #FF6900;
     box-shadow: 0 0 3px;
 }
 
-header nav{
+header nav, .container-footer{
     width: 80%;
     margin: auto;
     display: flex;
@@ -34,7 +34,7 @@ header nav{
     font-weight: bold;
 }
 
-.header-container > nav a{
+header > nav a{
     color: white;
 }
 
@@ -107,6 +107,7 @@ header nav{
 }
 
 .like{
+    color: black;
     font-size: 25px;
     position: absolute;
     top: 30px;
@@ -134,14 +135,70 @@ header nav{
     text-decoration: line-through;
 }
 
+/* FOOTER */
+
+footer{
+    max-height: 150px;
+    background-color: #1A1A1A;
+}
+
+
+.container-footer{
+    height: 120px;
+    color: white;
+}
+
+
+#info-footer{
+    max-width: 500px;
+}
+
+.srl{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info,
+.icon-social{
+    margin-top: 10px;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#info{
+    width: 400px;
+}
+
+.social div:first-child{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.container-footer a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+#info > a {
+    font-size: 14px;
+}
+
+.icon-social{
+    width: 120px;
+    font-size: 20px;
+}
+
 /* HOVER */
 
 .like:hover{
     color: red;
+    transition: 0.5s;
 }
 
 img:hover{
-    back
+
 }
 
 /* DEBUG */
