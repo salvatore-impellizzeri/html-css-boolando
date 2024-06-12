@@ -69,6 +69,7 @@ header nav{
     min-height: 500px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .card-box{
@@ -79,6 +80,39 @@ header nav{
 .card{
     width: 100%;
     display: flex;
+    position: relative;
+}
+
+.box-discount{
+    min-width: 100px;
+    min-height: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+.discount, .plus{
+    padding: 5px 10px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+
+.discount{
+    background-color: red;
+}
+
+.plus{
+    background-color: green;
+}
+
+.like{
+    font-size: 25px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background-color: white;
+    padding: 20px;
 }
 
 .name{
@@ -100,6 +134,16 @@ header nav{
     text-decoration: line-through;
 }
 
+/* HOVER */
+
+.like:hover{
+    color: red;
+}
+
+img:hover{
+    back
+}
+
 /* DEBUG */
 
 /* .debug header nav{
@@ -112,7 +156,7 @@ header nav{
     border: 1px dashed blueviolet;
 } */
 
-.debug .container-main{
+/* .debug .container-main{
     background-color: springgreen;
     border: 1px solid black;
 }
@@ -129,4 +173,4 @@ header nav{
 
 .card{
     border: 1px dashed black;
-}
+} */
