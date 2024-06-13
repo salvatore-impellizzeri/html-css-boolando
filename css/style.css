@@ -21,6 +21,10 @@ header{
     line-height: 70px;
     background-color: #FF6900;
     box-shadow: 0 0 3px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
 }
 
 header nav, .container-footer{
@@ -67,7 +71,7 @@ header > nav a{
     width: 80%;
     min-height: 1500px;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 150px;
 }
 
 .row{
